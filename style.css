@@ -402,7 +402,6 @@ nav .msgs-popup small {
 
 /* Pesquisa para o mobile */
 .pesquisa-mobile {
-    margin-top: 14.6vh;
     background-color: var(--color-light);
     border: 10px solid var(--color-white);
     display: none;
@@ -1016,6 +1015,24 @@ footer small {
 }
 
 /* Media queries */
+@media screen and (min-width: 4000px) {
+    .container {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 3000px) and (max-width: 3999px) {
+    .container {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 2000px) and (max-width: 2999px) {
+    .container {
+        width: 90%;
+    }
+}
+
 @media screen and (max-width: 1023px) {
 
     main .container {
@@ -1099,7 +1116,7 @@ footer small {
     }
 
     main {
-        top: 0rem;
+        top: 5.2rem;
     }
 
     main .container {

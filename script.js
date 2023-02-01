@@ -391,5 +391,4 @@ function ocultarDireita() {
     // Vai sumir com a parte lateral direita
     mainContainer.style.gridTemplateColumns = "5rem auto";
     // Vai tirar já que a lateral direita foi removida
-    mainContainerFilho2.style.gap = "0rem";
 }
